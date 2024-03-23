@@ -7,53 +7,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="image">
-    <img src="/home/shaban/repo/sign-up-form/image.jpg" alt="a tower">
-    <div class="odin">
-        <img src="/home/shaban/repo/sign-up-form/odin.png" alt="odin-logo">
-        <span>ODIN</span>
-    </div>
-</div>
-<div class="head">
-    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-    <p>You know what to do.</p>
-</div>
-<div class="form">
-    <p>Let's do this!</p>
-    <form action="" method="post">
-        <div class="name">
-            <p>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" name="first-name">
-            </p>
-            <p><label for="last-name">LAST NAME</label>
-                <input type="text" id="last-name" name="last-name">
-            </p>
+    <div class="parent-container">
+        <div class="image">
+            <div class="odin">
+                <img src="/home/shaban/repo/sign-up-form/odin.png" alt="odin-logo">
+                <span>ODIN</span>
+            </div>
+            <img class="main-img" src="/home/shaban/repo/sign-up-form/image.jpg" alt="a tower">
         </div>
-        <div class="contact">
-            <p>
-                <label for="email">EMAIL</label>
-                <input type="email" id="email" name="email">
-            </p>
-            <p>
-                <label for="number">PHONE NUMBER</label>
-                <input type="tel" id="number" name="number">
-            </p>
+        <div class="container">
+            <div class="head">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p>You know what to do.</p>
+            </div>
+            <div class="form">
+                <p>Let's do this!</p>
+                <form action="" method="post">
+                    <div class="name">
+                        <p>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </p>
+                        <p><label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </p>
+                    </div>
+                    <div class="contact">
+                        <p>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </p>
+                        <p>
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="tel" id="number" name="number">
+                        </p>
+                    </div>
+                    <div class="PASSWORD">
+                        <p>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </p>
+                        <p><label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm-password">
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="foot">
+                <button type="submiit">CREATE ACCOUNT</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
         </div>
-        <div class="PASSWORD">
-            <p>
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="password">
-            </p>
-            <p><label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" id="confirm-password" name="confirm-password">
-            </p>
         </div>
-    </form>
-</div>
-<div class="foot">
-    <button type="submiit">CREATE ACCOUNT</button>
-    <p>Already have an account? <a href="">Log in</a></p>
-</div>
+        
+
 </body>
 </html>
