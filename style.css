@@ -97,3 +97,17 @@ input:invalid{
 .foot{
     padding: 40px 50px ;
 }
+
+button{
+   padding: 15px 30px; 
+   border-style: none;
+   border-radius: 5%;
+   background-color: purple;
+   color: white;
+   font-size: 10px;
+   font-weight: bold;
+}
+
+a{
+    color: purple;
+}
