@@ -47,7 +47,7 @@ body{
 
 .head{
     box-sizing: border-box;
-    padding: 100px 10px 10px 10px;
+    padding: 100px 50px 10px 50px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -60,4 +60,40 @@ body{
 
 .form{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-sizing: border-box;
+    padding: 20px 50px ;
+    
+}
+.name,
+.contact,
+.password{
+    display: flex;
+    gap: 50px;
+}
+
+.form>p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input{
+    border: solid 2px #E5E7EB;
+    border-radius: 5%;
+    
+}
+
+input:focus{
+    border:solid 2px  purple;
+    outline: none;
+    border-radius: 5%;
+}
+
+input:invalid{
+    border:solid 2px  red;
+    outline: none;
+    border-radius: 5%;
+}
+
+.foot{
+    padding: 40px 50px ;
 }
